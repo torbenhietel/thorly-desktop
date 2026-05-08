@@ -1,0 +1,16 @@
+{
+  "name": "doneby-desktop",
+  "version": "0.1.0",
+  "description": "doneby.io — Desktop-App für Mandanten + Mitarbeiter-Verwaltung",
+  "private": true,
+  "homepage": "https://doneby.io",
+  "scripts": {
+    "tauri": "tauri",
+    "dev": "tauri dev",
+    "build": "tauri build",
+    "icons": "tauri icon ./src-tauri/icons/icon-source.png"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0"
+  }
+}

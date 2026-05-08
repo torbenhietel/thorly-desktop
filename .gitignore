@@ -1,0 +1,25 @@
+# Tauri build outputs
+src-tauri/target/
+src-tauri/gen/
+src-tauri/Cargo.lock
+
+# Node
+node_modules/
+package-lock.json
+
+# Local frontend dist (Tauri schreibt hier rein wenn build laeuft, aber
+# unsere App laedt direkt von app.doneby.io — daher leer halten)
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Secrets
+.env
+.env.local
+TAURI_PRIVATE_KEY*
