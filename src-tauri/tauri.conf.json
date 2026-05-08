@@ -49,7 +49,7 @@
       "nsis": {
         "displayLanguageSelector": true,
         "installerIcon": "icons/icon.ico",
-        "installMode": "perMachine"
+        "installMode": "currentUser"
       }
     },
     "macOS": {
