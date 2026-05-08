@@ -7,9 +7,11 @@ src-tauri/Cargo.lock
 node_modules/
 package-lock.json
 
-# Local frontend dist (Tauri schreibt hier rein wenn build laeuft, aber
-# unsere App laedt direkt von app.doneby.io — daher leer halten)
-dist/
+# Local frontend dist — wir committen NUR die Splash-index.html, damit
+# der Tauri-Build die nutzen kann (sie redirected per JS auf app.doneby.io).
+# Sonst nichts.
+dist/*
+!dist/index.html
 
 # OS
 .DS_Store

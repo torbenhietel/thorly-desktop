@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>doneby</title>
+    <style>
+      html, body {
+        margin: 0; padding: 0; height: 100%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: #FFFFFF; color: #08090A;
+        display: flex; align-items: center; justify-content: center;
+      }
+      .splash { text-align: center; }
+      .splash h1 { color: #059669; font-size: 2rem; font-weight: 700; }
+      .splash p { color: #525252; font-size: 0.9rem; margin-top: 0.5rem; }
+    </style>
+  </head>
+  <body>
+    <div class="splash">
+      <h1>doneby</h1>
+      <p>Lade…</p>
+    </div>
+    <script>
+      // Direkt-Redirect zur Web-App. Wenn Tauri offline ist, bleibt Splash sichtbar.
+      window.location.replace('https://app.doneby.io/');
+    </script>
+  </body>
+</html>
