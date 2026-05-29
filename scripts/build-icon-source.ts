@@ -1,8 +1,8 @@
-/**
+﻿/**
  * Generiert eine 1024x1024-PNG aus der SVG-Quelle fuer das Tauri-Icon-Set.
  *
- * Das doneby-Logo (logo-symbol.svg) hat einen Brand-Emerald-Hintergrund mit
- * weissem Doneby-Mark. Wir rendern das auf 1024x1024 mit etwas Padding,
+ * Das thorly-Logo (logo-symbol.svg) hat einen Brand-Emerald-Hintergrund mit
+ * weissem thorly-Mark. Wir rendern das auf 1024x1024 mit etwas Padding,
  * damit Tauri-Icon (das daraus icns/ico/PNG-Set erzeugt) sauber arbeitet.
  *
  * Run: bun run scripts/build-icon-source.ts

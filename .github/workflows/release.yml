@@ -1,4 +1,4 @@
-name: Build + Release Tauri App
+﻿name: Build + Release Tauri App
 
 # Trigger:
 #  - Tag-Push v*: erzeugt vollen Release mit Binaries fuer alle 3 OS
@@ -79,15 +79,15 @@ jobs:
           TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
         with:
           tagName: ${{ github.ref_name }}
-          releaseName: 'doneby ${{ github.ref_name }}'
+          releaseName: 'thorly ${{ github.ref_name }}'
           releaseBody: |
-            doneby Desktop-App.
+            thorly Desktop-App.
 
             **Beta — unsigned**: Beim ersten Start zeigt Windows/macOS einmalig eine Sicherheits-Warnung. Einmal "Trotzdem ausführen" / "Öffnen" klicken, danach läuft alles normal.
 
             Auto-Update: aktiv. Künftige Versionen kommen automatisch.
 
-            Installation: https://doneby.io/desktop
+            Installation: https://thorly.io/desktop
           releaseDraft: false
           prerelease: false
           args: ${{ matrix.args }}

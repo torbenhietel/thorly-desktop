@@ -1,9 +1,9 @@
-{
-  "name": "doneby-desktop",
+﻿{
+  "name": "thorly-desktop",
   "version": "0.1.2",
-  "description": "doneby.io — Desktop-App für Mandanten + Mitarbeiter-Verwaltung",
+  "description": "thorly.io — Desktop-App für Mandanten + Mitarbeiter-Verwaltung",
   "private": true,
-  "homepage": "https://doneby.io",
+  "homepage": "https://thorly.io",
   "scripts": {
     "tauri": "tauri",
     "dev": "tauri dev",

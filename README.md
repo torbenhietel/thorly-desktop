@@ -1,10 +1,10 @@
-# doneby-desktop
+﻿# thorly-desktop
 
-Desktop-Wrapper für [doneby.io](https://doneby.io) — gebaut mit [Tauri 2](https://v2.tauri.app/).
+Desktop-Wrapper für [thorly.io](https://thorly.io) — gebaut mit [Tauri 2](https://v2.tauri.app/).
 
 Thin-Wrapper-Strategie: Die App startet ein natives Window und lädt
-direkt `https://app.doneby.io/`. Das gesamte UI + Logik kommt aus
-[`doneby-web`](https://github.com/torbenhietel/doneby-web) (SvelteKit).
+direkt `https://app.thorly.io/`. Das gesamte UI + Logik kommt aus
+[`thorly-web`](https://github.com/torbenhietel/thorly-web) (SvelteKit).
 
 Adaptive-Layout: Im Tauri-Wrapper wird automatisch das Desktop-Layout
 aktiviert (Sidebar rechts + Status-Bar unten) statt der Browser-TabNav.
@@ -43,13 +43,13 @@ Code-Signing kommt mit dem Public Release (~$400/Jahr für Win+Mac).
 
 ```bash
 # macOS / Linux:
-curl -fsSL https://doneby.io/install.sh | bash
+curl -fsSL https://thorly.io/install.sh | bash
 
 # Windows (PowerShell):
-irm https://doneby.io/install.ps1 | iex
+irm https://thorly.io/install.ps1 | iex
 ```
 
-Direkt-Download alternativ über die [Releases-Page](https://github.com/torbenhietel/doneby-desktop/releases).
+Direkt-Download alternativ über die [Releases-Page](https://github.com/torbenhietel/thorly-desktop/releases).
 
 ## Architektur
 
@@ -63,7 +63,7 @@ Direkt-Download alternativ über die [Releases-Page](https://github.com/torbenhi
                    │ WebView (System-Webkit/WebView2/WKWebView)
                    ▼
    ┌──────────────────────────────────┐
-   │  app.doneby.io  (SvelteKit)      │
+   │  app.thorly.io  (SvelteKit)      │
    │  - Detected window.__TAURI__     │
    │  - Adaptive-Layout (Sidebar)     │
    │  - Status-Bar unten              │
@@ -71,8 +71,8 @@ Direkt-Download alternativ über die [Releases-Page](https://github.com/torbenhi
                    │ REST + WebSocket
                    ▼
    ┌──────────────────────────────────┐
-   │  app.doneby.io/api/...           │
-   │  doneby Backend (Bun + Hono)     │
+   │  app.thorly.io/api/...           │
+   │  thorly Backend (Bun + Hono)     │
    │  Postgres, Multi-Tenant          │
    └──────────────────────────────────┘
 ```

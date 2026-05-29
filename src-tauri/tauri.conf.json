@@ -1,8 +1,8 @@
-{
+﻿{
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "doneby",
+  "productName": "thorly",
   "version": "0.1.2",
-  "identifier": "io.doneby.desktop",
+  "identifier": "io.thorly.desktop",
   "build": {
     "beforeBuildCommand": "",
     "frontendDist": "../dist"
@@ -11,7 +11,7 @@
     "windows": [
       {
         "label": "main",
-        "title": "doneby",
+        "title": "thorly",
         "width": 1400,
         "height": 900,
         "minWidth": 1024,
@@ -39,9 +39,9 @@
     ],
     "category": "Productivity",
     "shortDescription": "AI-Mitarbeiter-Plattform für den DACH-Mittelstand",
-    "longDescription": "doneby.io ist die offene Plattform für AI-Mitarbeiter mit deutscher Datenhoheit. Anna für Akquise, Bernd für Backoffice, Lisa für Marketing — oder dein eigener Mitarbeiter.",
+    "longDescription": "thorly.io ist die offene Plattform für AI-Mitarbeiter mit deutscher Datenhoheit. Anna für Akquise, Bernd für Backoffice, Lisa für Marketing — oder dein eigener Mitarbeiter.",
     "publisher": "TH Consulting GmbH",
-    "homepage": "https://doneby.io",
+    "homepage": "https://thorly.io",
     "windows": {
       "wix": {
         "language": ["de-DE", "en-US"]
@@ -60,7 +60,7 @@
     "updater": {
       "active": true,
       "endpoints": [
-        "https://github.com/torbenhietel/doneby-desktop/releases/latest/download/latest.json"
+        "https://github.com/torbenhietel/thorly-desktop/releases/latest/download/latest.json"
       ],
       "dialog": true,
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDQyODJEMjVEMTU3NTk2OTIKUldTU2xuVVZYZEtDUW1jMVRVWHd2NjhIbTJhUDUxd0FheGJ6N2dXbFZRV094ZGZodG5URVhBUmkK"

@@ -1,7 +1,7 @@
-{
+﻿{
   "$schema": "../gen/schemas/desktop-schema.json",
   "identifier": "default",
-  "description": "Default capabilities fuer doneby-desktop main window",
+  "description": "Default capabilities fuer thorly-desktop main window",
   "windows": ["main"],
   "permissions": [
     "core:default",
