@@ -1,6 +1,6 @@
-﻿{
+{
   "name": "thorly-desktop",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "thorly.io — Desktop-App für Mandanten + Mitarbeiter-Verwaltung",
   "private": true,
   "homepage": "https://thorly.io",
