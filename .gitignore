@@ -8,7 +8,7 @@ node_modules/
 package-lock.json
 
 # Local frontend dist — wir committen NUR die Splash-index.html, damit
-# der Tauri-Build die nutzen kann (sie redirected per JS auf app.doneby.io).
+# der Tauri-Build die nutzen kann (sie redirected per JS auf app.thorly.io).
 # Sonst nichts.
 dist/*
 !dist/index.html

@@ -1,21 +1,21 @@
 [package]
-name = "doneby-desktop"
+name = "thorly-desktop"
 version = "0.1.2"
-description = "doneby.io Desktop-App"
+description = "thorly.io Desktop-App"
 authors = ["TH Consulting GmbH <kontakt@thconsulting.dev>"]
 license = "Proprietary"
-repository = "https://github.com/torbenhietel/doneby-desktop"
+repository = "https://github.com/torbenhietel/thorly-desktop"
 edition = "2021"
 rust-version = "1.77"
 
 [lib]
-name = "doneby_desktop_lib"
+name = "thorly_desktop_lib"
 crate-type = ["lib", "cdylib", "staticlib"]
 
-# Binary heisst "doneby" (nicht "doneby-desktop") damit Asset-Filenames
+# Binary heisst "thorly" (nicht "thorly-desktop") damit Asset-Filenames
 # sauber sind und der Install-Pfad konsistent mit dem Brand bleibt.
 [[bin]]
-name = "doneby"
+name = "thorly"
 path = "src/main.rs"
 
 [build-dependencies]
