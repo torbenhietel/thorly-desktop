@@ -1,6 +1,6 @@
 [package]
 name = "thorly-desktop"
-version = "0.1.2"
+version = "0.2.0"
 description = "thorly.io Desktop-App"
 authors = ["TH Consulting GmbH <kontakt@thconsulting.dev>"]
 license = "Proprietary"
